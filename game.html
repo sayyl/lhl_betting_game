@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LHL Betting Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-2.2.0.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+    <h1>Betting Game</h1>
+    <hr/>
+    <div class="container">
+      <div class="game">
+        <button type="submit" class="start-game">Click to start the game!</button>
+        <form class="playing">
+          <div class="start-game">
+            <p>What is your starting bet?</p>
+            <input type="text" class="player-bet" placeholder="Between $5- $10">
+          </div>
+          <div class="num-guess">
+            <p>Guess a number between 1 and 10.</p>
+            <input type="text" class="player-guess" ><br>
+            <button type="submit" class="guess">Submit</button>
+          </div>
+        </form>
+        <div class="correct-guess">
+          <p>Congratulations! You win your bet!</p>
+        </div>
+        <div class="off-by-one">
+          <p>Off by one! No money gained or lost.</p>
+        </div>
+        <div class="wrong-guess">
+          <p>Sorry, wrong number. You lose your bet.</p>
+        </div>
+        <button type="hidden" class="restart">Restart?</button>
+      </div>
+    </div>
+  </body>
+</html>

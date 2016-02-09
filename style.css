@@ -1,0 +1,64 @@
+body {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #522029;
+  color: #FFFFFF;
+  padding: 15px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+input {
+  padding: 15px;
+  max-width: 700px;
+  font-size: 15px;
+}
+
+.game {
+  background-color: #dfd5d7;
+  text-align: center;
+  border-radius: 20px;
+}
+
+form.gambling {
+  display: none;
+}
+
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.correct-guess {
+  color: green;
+  display: none;
+}
+
+.off-by-one {
+  color: blue;
+  display: none;
+}
+
+.wrong-guess {
+  color: red;
+  display: none;
+}
+
+.game-over {
+  font-weight: bold;
+  color: red;
+  display: none;
+}
+
+.restart {
+  display: none;
+}
